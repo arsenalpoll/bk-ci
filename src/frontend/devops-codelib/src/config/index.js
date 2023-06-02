@@ -38,10 +38,10 @@ export const codelibConfig = {
         label: 'Git',
         typeName: 'codeGit'
     },
-    github: {
-        label: 'Github',
-        typeName: 'github'
-    },
+    // github: {
+    //     label: 'Github',
+    //     typeName: 'github'
+    // },
     git_http: {
         credentialTypes: 'TOKEN_USERNAME_PASSWORD',
         addType: 'TOKEN_USERNAME_PASSWORD',
@@ -82,7 +82,7 @@ export const codelibConfig = {
 
 export const codelibTypes = [
     'SVN',
-    'Github',
+    // 'Github',
     'Gitlab',
     'TGit',
     'P4'
